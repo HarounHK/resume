@@ -1,5 +1,5 @@
 import Image from "next/image"
-import test from "../../public/test.jpeg"
+import ProfilePicture from "../../public/ProfilePicture.jpeg"
 import { PROFILE } from "../constants/text"
 import { FaDownload } from "react-icons/fa6"
 
@@ -7,14 +7,14 @@ export const HomePage = () => {
   return (
     <div className="my-24">
         <div className="flex flex-col items-center justify-center gap-4">
-          <Image src={test}
+          <Image src={ProfilePicture}
               width={100}
               height={100}
-              alt="test"
+              alt="ProfilePicture"
               className="rounded-full border-2 border-slate-400"/>
               <h1 className="text-2xl font-bold">{PROFILE.name}</h1>
               <p className="text-2xl font-bold">{PROFILE.location}</p>
-              <a href="/HK.pdf"
+              <a href="/TestCV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
