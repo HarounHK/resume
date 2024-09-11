@@ -38,7 +38,6 @@ export const HomePage = () => {
             <span className="border-b font-medium text-slate-200">Back End</span>{" "}
             development.
           </p>
-          <><Projects/></>
         </div>
     </div>
   )

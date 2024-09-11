@@ -31,3 +31,11 @@ export const PROJECTS = [
     url: "https://github.com",
   }
 ];
+
+export const SKILLS = [
+  "Frameworks: React, Angular, Next.js",
+  "Languages: Java, Python",
+  "Languages: HTML, CSS/TailwindCSS, JavaScript, Typescript",
+  "TechnologiesNode.js, Django, Docker",
+  "Databases: PostgreSQL, MySQL, MongoDB",
+];
