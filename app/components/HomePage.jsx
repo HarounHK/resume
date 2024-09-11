@@ -2,6 +2,7 @@ import Image from "next/image"
 import ProfilePicture from "../../public/ProfilePicture.jpeg"
 import { PROFILE } from "../constants/text"
 import { FaDownload } from "react-icons/fa6"
+import Projects from "./Projects"
 
 export const HomePage = () => {
   return (
@@ -37,6 +38,7 @@ export const HomePage = () => {
             <span className="border-b font-medium text-slate-200">Back End</span>{" "}
             development.
           </p>
+          <><Projects/></>
         </div>
     </div>
   )
