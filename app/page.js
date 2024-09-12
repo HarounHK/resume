@@ -1,15 +1,17 @@
-import { HomePage } from "./components/HomePage";
-import { Projects } from "./components/Projects";
-import { Skills } from "./components/Skills";
-import { WorkExperience } from "./components/WorkExperience";
+"use client";
 
-export default function Home() {
+import React from 'react';
+import { usePathname } from 'next/navigation'; 
+import { HomePage } from './components/HomePage';
+import { NavBar } from './components/NavBar';
+
+export default function Page() {
+  const pathname = usePathname();
+
   return (
-  <>
-    <HomePage/>
-    <Projects/>
-    <Skills/>
-    <WorkExperience/>
-  </>
+    <>
+      <NavBar />
+      <HomePage />
+    </>
   );
 }
