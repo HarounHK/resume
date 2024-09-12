@@ -3,6 +3,7 @@ import React from 'react';
 export const NavBar = () => {
   return (
     <div>
+      {/* <nav className='bg-teal-white border border-white'> */}
       <nav>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='flex items-center justify-between h-16'>
