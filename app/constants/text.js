@@ -6,6 +6,8 @@ import sample4 from "../../public/sample4.jpeg";
 import c1 from "../../public/c1.jpeg";
 import c2 from "../../public/c2.jpeg";
 
+import { FaGithub, FaGlobe, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 export const PROFILE = {
   name: "Haroun Kassouri",
   location: "Dublin, Ireland 🇮🇪",
@@ -73,3 +75,10 @@ export const EXPERIENCES = [
     technologies: ["Next.js", "React", "JavaScript", "Tailwind CSS", "Node.js"],
   },
 ];
+
+export const SOCIALS = [
+  {icon: <FaGithub/>, path:"https://github.com/HarounHK"},
+  {icon: <FaLinkedin/>, path:"https://www.linkedin.com/in/harounkassouri/"},
+  {icon: <FaGlobe/>, path:"https://harounkassouri.com/"},
+  {icon: <FaEnvelope/>, path:"mailto:haroun.kassouri@outlook.com"},
+]

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation'; 
-import { HomePage } from './components/HomePage';
+import { Homepge } from './components/Homepge';
 import { NavBar } from './components/NavBar';
 
 export default function Page() {
@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
       <NavBar />
-      <HomePage />
+      <Homepge />
     </>
   );
 }

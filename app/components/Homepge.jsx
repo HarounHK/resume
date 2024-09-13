@@ -1,0 +1,52 @@
+import { FaDownload } from "react-icons/fa";
+import { SOCIALS } from "../constants/text"; // Make sure this path is correct
+
+export const Homepge = () => {
+  return (
+    <section className="h-full">
+      <div className="container mx-auto h-full">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+          {/* {Text} */}
+          <div className="text-center xl:text-left">
+            <span className="text-xl">Software Developer</span>
+            <h1 className="mb-6 text-5xl xl:text-[80px] leading-[1.1] font-semibold">
+              Hello I am <br />
+              <span className="text-teal-400">Haroun Kassouri</span>
+            </h1>
+            <p className="max-w-[500px] mb-9 text-white/80">
+              Full Stack Software Engineer with 3 years of hands-on programming experience.
+              Proficient in Angular, React, and Next.js.
+            </p>
+            <a
+              href="/CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="flex items-center justify-center mx-auto gap-x-2 rounded-full bg-slate-950 px-5 py-3 text-teal-400 text-sm font-semibold tracking-tight border-2 border-teal-400 hover:bg-teal-400 hover:text-black transition-colors"
+            >
+              Download CV
+              <FaDownload className="text-xl" />
+            </a>
+                <div className="mt-8 xl:mt-8 flex justify-center gap-8">
+                    {SOCIALS.map((item, index) => (
+                    <a
+                        key={index}
+                        href={item.path}
+                        className="text-white hover:text-teal-400 transition-colors"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {item.icon}
+                    </a>
+                    ))}
+                </div>
+          </div>
+          {/* {Photo} */}
+          <div>photo</div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Homepge;

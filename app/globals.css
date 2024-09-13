@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-custom {
+      @apply bg-white text-black border border-gray-300;
+    }
+  }
+  
