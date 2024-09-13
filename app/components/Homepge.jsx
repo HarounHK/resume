@@ -8,7 +8,6 @@ export const Homepge = () => {
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center xl:justify-between xl:pt-8 xl:pb-24">
-          {/* {Text} */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Engineer</span>
             <h1 className="h1 mb-6 text-5xl xl:text-[80px] leading-[1.1] font-semibold">
