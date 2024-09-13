@@ -1,6 +1,6 @@
 import { FaDownload } from "react-icons/fa";
 import { SOCIALS } from "../constants/text"; // Make sure this path is correct
-import { Prof }
+import { Profile } from "./Profile";
 
 export const Homepge = () => {
   return (
