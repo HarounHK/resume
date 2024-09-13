@@ -4,6 +4,7 @@ import sample3 from "../../public/sample3.jpeg";
 import sample4 from "../../public/sample4.jpeg";
 
 import c1 from "../../public/c1.jpeg";
+import c2 from "../../public/c2.jpeg";
 
 export const PROFILE = {
   name: "Haroun Kassouri",
@@ -50,12 +51,25 @@ export const EXPERIENCES = [
     company: "Department of Agriculture, Food and Marine",
     description: [
       "______________________________________________________________________________________",
-      "Contributed to the 'Digital Forms' platform, digitizing essential company forms. Utilized Angular (HTML, CSS, TypeScript) for front-end and integrated with backend systems, enhancing departmental efficiency.",
-      "Spearheaded a fully digital new hire onboarding process with Angular and Oracle databases. Reduced onboarding time, resource usage, and improved data accuracy for thousands of future employees.",
-      "Assisted with migrating critical forms from PAM to Kogito, including modifying existing code and automating workflows. Improved internal communication through automated emails and enhanced form submission speed and reliability across the company.",
-      "Connected Angular-based forms with Oracle databases, ensuring secure data exchange. Utilized Node.js for server-side logic, strengthening front-end and back-end integration and ensuring data integrity.",
+      "Spearheaded the development of a digital onboarding system, utilizing Angular for the front-end and Oracle databases for backend storage. This initiative reduced onboarding time and resource usage, supported thousands of new hires, and streamlined HR operations.",
+      'Contributed to the "Digital Forms" platform, enhancing efficiency across departments by digitizing essential forms. Used Angular (HTML, CSS, TypeScript) for front-end development and integrated with backend systems.',
+      "Led the migration of business-critical forms from the legacy PAM system to Kogito. Re-engineered workflows and modified code for seamless integration, resulting in improved internal communication and faster, more reliable form submissions.",
+      "Integrated Angular-based front-end with Oracle databases and used Node.js for server-side logic and API management. Collaborated with database developers to ensure secure data exchange and system functionality.",
       "______________________________________________________________________________________"
     ],
     technologies: ["Angular", "TypeScript", "HTML/CSS", "Node.js", "Kogito", "Oracle"],
+  },
+  {
+    img: c2,
+    year: "August 2024 - Present",
+    role: "FreeLance Software Engineer",
+    company: "Self Employed",
+    description: [
+      "______________________________________________________________________________________",
+      'Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler.',
+      "Filler FillerFiller Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler.",
+      "______________________________________________________________________________________"
+    ],
+    technologies: ["Next.js", "React", "JavaScript", "Tailwind CSS", "Node.js"],
   },
 ];
