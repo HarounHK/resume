@@ -1,15 +1,17 @@
 import { FaDownload } from "react-icons/fa";
-import { SOCIALS } from "../constants/text"; // Make sure this path is correct
+import { SOCIALS } from "../constants/text"; 
 import { Profile } from "./Profile";
+import { Statistics } from "./Statistics";
 
 export const Homepge = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center xl:justify-between xl:pt-8 xl:pb-24">
-          <div className="text-center xl:text-left xl:pr-8">
+          {/* {Text} */}
+          <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Engineer</span>
-            <h1 className="mb-6 text-5xl xl:text-[80px] leading-[1.1] font-semibold">
+            <h1 className="h1 mb-6 text-5xl xl:text-[80px] leading-[1.1] font-semibold">
               Hello Im <br />
               <span className="text-teal-400">Haroun Kassouri</span>
             </h1>
@@ -45,13 +47,12 @@ export const Homepge = () => {
               </div>
             </div>
           </div>
-          <div className="mt-8 xl:mt-0 xl:ml-12"> 
+          <div className="order-1 xl:order-none mb-8 xl:mb-0"> 
             <Profile />
           </div>
         </div>
       </div>
+      <Statistics />
     </section>
   );
 };
-
-export default Homepge;

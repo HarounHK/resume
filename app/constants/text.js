@@ -8,6 +8,14 @@ import c2 from "../../public/c2.jpeg";
 
 import { FaGithub, FaGlobe, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
+export const LINKS = [
+  { name: "home", path: "/" },
+  { name: "Projects", path: "/projects" },
+  { name: "resume", path: "/" },
+  { name: "Skills", path: "/skills" },
+  { name: "Work Experience", path: "/workexperience" },
+];
+
 export const PROFILE = {
   name: "Haroun Kassouri",
   location: "Dublin, Ireland 🇮🇪",
@@ -82,3 +90,22 @@ export const SOCIALS = [
   {icon: <FaGlobe/>, path:"https://harounkassouri.com/"},
   {icon: <FaEnvelope/>, path:"mailto:haroun.kassouri@outlook.com"},
 ]
+
+export const STATS = [
+  {
+    num: 3,
+    text: "Years of experience",
+  },
+  {
+    num: 3,
+    text: "Projects completed",
+  },
+  {
+    num: 8,
+    text: "Technologies mastered",
+  },
+  {
+    num: 500,
+    text: "Code commits",
+  },
+];
