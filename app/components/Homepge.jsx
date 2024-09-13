@@ -10,7 +10,7 @@ export const Homepge = () => {
           <div className="text-center xl:text-left xl:pr-8">
             <span className="text-xl">Software Engineer</span>
             <h1 className="mb-6 text-5xl xl:text-[80px] leading-[1.1] font-semibold">
-              Hello I'm <br />
+              Hello Im <br />
               <span className="text-teal-400">Haroun Kassouri</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
