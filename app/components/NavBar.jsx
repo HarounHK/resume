@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { LINKS } from '../constants/text'; 
+import { MobileNavBar } from './MobileNavBar'; 
 
 export const NavBar = () => {
   const pathname = usePathname(); 
@@ -36,8 +37,7 @@ export const NavBar = () => {
           </div>
 
           <div className='md:hidden flex items-center'>
-            <button className='inline-flex items-center justify-center p-2 rounded-md text-white hover:text-teal-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-400'>
-            </button>
+            <MobileNavBar />
           </div>
         </nav>
       </div>
