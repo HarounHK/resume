@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { LINKS } from '../constants/text'; 
-import { MobileNavBar } from './MobileNavBar'; 
+import { MobileNavBar } from './MobileNavbar'; 
 
 export const NavBar = () => {
   const pathname = usePathname(); 
