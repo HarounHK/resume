@@ -8,8 +8,8 @@ export const NavBar = () => {
   const pathname = usePathname(); 
 
   return (
-    <nav className='bg-slate-950 border-b border-teal-400'>
-      <div className='flex items-center justify-between h-16'>
+    <header className='bg-slate-950 border-b border-teal-400 py-4'>
+      <nav className='flex items-center justify-between h-16'>
         <div className='flex items-center'>
           <div className='flex-shrink-0'>
             <Link href="/" className='text-white text-2xl font-bold'>
@@ -38,7 +38,7 @@ export const NavBar = () => {
           <button className='inline-flex items-center justify-center p-2 rounded-md text-white hover:text-teal-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-400'>
           </button>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };

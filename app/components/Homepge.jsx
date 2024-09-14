@@ -2,6 +2,7 @@ import { FaDownload } from "react-icons/fa";
 import { SOCIALS } from "../constants/text"; 
 import { Profile } from "./Profile";
 import { Statistics } from "./Statistics";
+import { Footer } from "./Footer";
 
 export const Homepge = () => {
   return (

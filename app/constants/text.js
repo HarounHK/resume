@@ -11,9 +11,10 @@ import { FaGithub, FaGlobe, FaLinkedin, FaEnvelope } from "react-icons/fa";
 export const LINKS = [
   { name: "home", path: "/" },
   { name: "Projects", path: "/projects" },
-  { name: "resume", path: "/" },
+  { name: "resume", path: "/resume" },
   { name: "Skills", path: "/skills" },
   { name: "Work Experience", path: "/workexperience" },
+  // { name: "Contact Me", path: "/contact" },
 ];
 
 export const PROFILE = {
@@ -94,11 +95,11 @@ export const SOCIALS = [
 export const STATS = [
   {
     num: 3,
-    text: "Years of experience",
+    text: "Years programming experience",
   },
   {
-    num: 3,
-    text: "Projects completed",
+    num: 1,
+    text: "Year Professional Experience",
   },
   {
     num: 8,
