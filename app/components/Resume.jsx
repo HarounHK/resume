@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 
 export const Resume = () => {
-  return (
-    <div>Coming soon...</div>
-  )
-}
+  return (<p>Coming Soon..</p>
+  );
+};
