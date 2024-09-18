@@ -14,7 +14,7 @@ export const LINKS = [
   { name: "resume", path: "/resume" },
   { name: "Skills", path: "/skills" },
   { name: "Work Experience", path: "/workexperience" },
-  // { name: "Contact Me", path: "/contact" },
+  { name: "Contact Me", path: "/contact" },
 ];
 
 export const PROFILE = {
