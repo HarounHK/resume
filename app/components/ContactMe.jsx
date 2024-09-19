@@ -2,13 +2,13 @@ export const ContactMe = () => {
   return (
     <div className="py-20 bg-slate-950 text-white min-h-screen flex items-center justify-center">
       <div className="container mx-auto px-4">
-        {/* c=Contact Box */}
+        {/* Contact Box */}
         <div className="max-w-3xl mx-auto p-10 bg-slate-950 rounded-xl shadow-lg border border-slate-950">
           
           {/* Heading */}
-          <h2 className="text-4xl font-semibold mb-4 text-center">Let's Work Together</h2>
+          <h2 className="text-4xl font-semibold mb-4 text-center">Lets Work Together</h2>
           <p className="text-center text-gray-400 mb-8">
-            Fill out the form below to get in touch. Whether it's for a project or just a quick hello, I would love to hear from you!
+            Fill out the form below to get in touch. Whether its for a project or just a quick hello, I would love to hear from you!
           </p>
           
           {/* Contact Form */}
