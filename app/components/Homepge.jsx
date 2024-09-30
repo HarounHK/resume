@@ -21,7 +21,7 @@ export const Homepge = () => {
             </p>
             <div className="flex flex-col xl:flex-row items-center xl:items-start gap-4 xl:gap-8">
               <a
-                href="/CV.pdf"
+                href="/haroun_kassouri.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
