@@ -21,7 +21,7 @@ export const Profile = () => {
         className="relative w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] rounded-full overflow-hidden"
       >
         <Image
-          src="/ProfilePicture.jpeg"
+          src="/profile.jpeg"
           priority
           quality={100}
           fill
